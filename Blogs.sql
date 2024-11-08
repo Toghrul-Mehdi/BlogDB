@@ -123,10 +123,7 @@ set isDeleted=1
 Where Blogs.BlogsID in (select BlogsID from deleted);
 end;
 
---Blogu geri qaytarma
-update Blogs
-set isDeleted = 0
-where BlogsID = 1;
+
 
 
 
