@@ -115,7 +115,7 @@ add isDeleted bit not null default 0;
 
 Create Trigger trigger_Blogs 
 on Blogs
-for delete
+instead of delete
 as
 begin 
 update Blogs
